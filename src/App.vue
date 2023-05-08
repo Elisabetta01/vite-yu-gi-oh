@@ -1,9 +1,18 @@
 <script >
+     
+     import NavComp from './components/NavComp.vue';
+
+     export default{
+          name: "App",
+          components: {
+               NavComp,
+          }
+     }
 
 </script>
 
 <template>
-<h1>CIAO!</h1>
+     <NavComp/>
 </template>
 
 <style lang="scss">
